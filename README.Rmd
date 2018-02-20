@@ -1,0 +1,10 @@
+# test.tex
+
+```{r}
+tinytex::pdflatex('test.tex')
+system('convert test.pdf test.png')
+```
+
+![](test.png)
+
+
