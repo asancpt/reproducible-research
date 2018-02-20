@@ -7,6 +7,10 @@ system('convert test.pdf test.png')
 
 ![](test.png)
 
+## intro.tex
+
+<https://services.math.duke.edu/computing/tex/templates.html>
+
 ```{r}
 tinytex::pdflatex('intro.tex')
 system('convert intro.pdf intro.png')
