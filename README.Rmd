@@ -1,3 +1,10 @@
+
+
+# Reproducible Research through LaTeX and Rmarkdown
+
+이 저장소는 재현가능한 연구에 대한 것입니다.
+
+
 ## intro.tex
 
 <https://services.math.duke.edu/computing/tex/templates.html>
@@ -9,13 +16,3 @@ system('convert intro.pdf intro.png')
 
 ![](intro-0.png)
 ![](intro-1.png)
-
-# test.tex
-
-```{r}
-tinytex::xelatex('test.tex')
-system('convert test.pdf test.png')
-```
-
-![](test.png)
-
