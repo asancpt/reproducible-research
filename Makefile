@@ -3,4 +3,3 @@ github_doc:
 
 update:
 	Rscript -e "tinytex::tlmgr_update()"
-

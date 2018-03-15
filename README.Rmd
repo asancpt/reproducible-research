@@ -4,10 +4,11 @@
 
 ## 예시
 
-<https://services.math.duke.edu/computing/tex/templates.html>
+- <https://services.math.duke.edu/computing/tex/templates.html>
+- <http://denethor.wlu.ca/latex/>
 
 ```{r, message = FALSE, warning = FALSE}
-tinytex::xelatex('intro.tex')
+tinytex::latexmk('intro.tex')
 system('convert intro.pdf intro.png')
 ```
 
