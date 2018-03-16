@@ -9,3 +9,8 @@ pandoc-xelatex:
 
 pandoc:
 	pandoc README.md -o README.pdf 
+
+
+latexmk:
+	Rscript -e "tinytex::latexmk('intro.tex')"
+
