@@ -4,6 +4,8 @@ github_doc:
 update:
 	Rscript -e "tinytex::tlmgr_update()"
 
-pandoc_pdf:
+pandoc-xelatex:
 	pandoc README.md -o README.pdf --latex-engine=xelatex
 
+pandoc:
+	pandoc README.md -o README.pdf 

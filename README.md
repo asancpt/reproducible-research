@@ -1,3 +1,8 @@
+---
+header-includes:
+  - \usepackage{kotex}
+---
+
 Reproducible Research through LaTeX and Rmarkdown
 =================================================
 
